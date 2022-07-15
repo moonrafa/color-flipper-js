@@ -19,6 +19,9 @@ button.addEventListener('click', function () {
   console.log(randomNumber)
   document.body.style.backgroundColor = colors[randomNumber]
   color.textContent = colors[randomNumber]
+  $(function () {
+    $('.color').css('color', colors[randomNumber])
+  })
 })
 
 function getRandomNumber() {

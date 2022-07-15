@@ -211,7 +211,7 @@ main {
   margin-bottom: 2.5rem;
 }
 .color {
-  color: var(--clr-primary-5);
+  color: var(gray);
   text-transform: none;
 }
 
