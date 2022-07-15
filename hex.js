@@ -10,6 +10,9 @@ button.addEventListener('click', function () {
   }
   color.textContent = hexColor
   document.body.style.backgroundColor = hexColor
+  $(function () {
+    $('.color').css('color', hexColor)
+  })
 })
 
 function getRandomNumber() {
