@@ -8,7 +8,11 @@ const colors = [
   'blue',
   'yellow',
   'orange',
-  'brown'
+  'brown',
+  'lightblue',
+  'lightgreen',
+  'lightpink',
+  'lightsalmon'
 ]
 
 const button = document.getElementById('button')
